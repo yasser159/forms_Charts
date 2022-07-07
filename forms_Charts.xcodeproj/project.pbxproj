@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3333AE9D287695E300AC37C8 /* VC_Add_Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333AE9B287695E300AC37C8 /* VC_Add_Box.swift */; };
+		3333AEA02876997900AC37C8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333AE9F2876997900AC37C8 /* Box.swift */; };
+		3333AEA3287699CD00AC37C8 /* ImageHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333AEA2287699CD00AC37C8 /* ImageHandling.swift */; };
+		3333AEA528769A7500AC37C8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333AEA428769A7500AC37C8 /* Item.swift */; };
 		333C4EEF2876791F005296D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C4EEE2876791F005296D2 /* AppDelegate.swift */; };
 		333C4EF12876791F005296D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C4EF02876791F005296D2 /* SceneDelegate.swift */; };
 		333C4EF32876791F005296D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C4EF22876791F005296D2 /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3333AE9B287695E300AC37C8 /* VC_Add_Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Add_Box.swift; sourceTree = "<group>"; };
+		3333AE9F2876997900AC37C8 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		3333AEA2287699CD00AC37C8 /* ImageHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHandling.swift; sourceTree = "<group>"; };
+		3333AEA428769A7500AC37C8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Item.swift; path = "/Users/yasser159/Documents/Dev IOS 🧰📲 /forms_Charts/forms_Charts/Model/Item.swift"; sourceTree = "<absolute>"; };
 		333C4EEB2876791F005296D2 /* forms_Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forms_Charts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		333C4EEE2876791F005296D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		333C4EF02876791F005296D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +50,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3333AE92287691F200AC37C8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				333C4EF728767921005296D2 /* Assets.xcassets */,
+				333C4EF928767921005296D2 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3333AEA12876999100AC37C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3333AEA428769A7500AC37C8 /* Item.swift */,
+				3333AE9F2876997900AC37C8 /* Box.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		333C4EE22876791F005296D2 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +89,14 @@
 		333C4EED2876791F005296D2 /* forms_Charts */ = {
 			isa = PBXGroup;
 			children = (
+				333C4EF42876791F005296D2 /* Main.storyboard */,
 				333C4EEE2876791F005296D2 /* AppDelegate.swift */,
 				333C4EF02876791F005296D2 /* SceneDelegate.swift */,
 				333C4EF22876791F005296D2 /* ViewController.swift */,
-				333C4EF42876791F005296D2 /* Main.storyboard */,
-				333C4EF728767921005296D2 /* Assets.xcassets */,
-				333C4EF928767921005296D2 /* LaunchScreen.storyboard */,
+				3333AE9B287695E300AC37C8 /* VC_Add_Box.swift */,
+				3333AEA2287699CD00AC37C8 /* ImageHandling.swift */,
+				3333AEA12876999100AC37C8 /* Model */,
+				3333AE92287691F200AC37C8 /* Other */,
 				333C4EFC28767921005296D2 /* Info.plist */,
 			);
 			path = forms_Charts;
@@ -88,7 +116,6 @@
 				D3007C4EC2F9C595E43F5C2C /* Pods-forms_Charts.debug.xcconfig */,
 				4E0B87A7144851133229C488 /* Pods-forms_Charts.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,9 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3333AE9D287695E300AC37C8 /* VC_Add_Box.swift in Sources */,
 				333C4EF32876791F005296D2 /* ViewController.swift in Sources */,
+				3333AEA3287699CD00AC37C8 /* ImageHandling.swift in Sources */,
 				333C4EEF2876791F005296D2 /* AppDelegate.swift in Sources */,
+				3333AEA528769A7500AC37C8 /* Item.swift in Sources */,
 				333C4EF12876791F005296D2 /* SceneDelegate.swift in Sources */,
+				3333AEA02876997900AC37C8 /* Box.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
