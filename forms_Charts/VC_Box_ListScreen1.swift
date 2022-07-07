@@ -79,13 +79,8 @@ class VC_Box_ListScreen: UIViewController{
 
     }
     
-    
-    
-    //IB action not allowed
-    
-    
     @IBAction func btn_AddNewBox(_ sender: Any) {
-        
+
         print("add button tapped")
 
         performSegue(withIdentifier: "goToAddBox", sender: self)
