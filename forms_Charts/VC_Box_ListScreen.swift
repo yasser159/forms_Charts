@@ -9,7 +9,7 @@ import UIKit
 import RealmSwift
 import SwipeCellKit
 
-class ViewController: UIViewController {
+class VC_Box_ListScreen: UIViewController{
     
     let realm = try! Realm()
     var boxes: Results<Box>?   // Previously toDoItems
@@ -35,13 +35,13 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        if(!appDelegate.hasAlreadyLaunched){
-            //set hasAlreadyLaunched to false
-            appDelegate.sethasAlreadyLaunched()
-            //display user agreement license
-            //print("App Running for the first time") // load default items to this tableview
-            loadDefaultAccounts()
-        }
+//        if(!appDelegate.hasAlreadyLaunched){
+//            //set hasAlreadyLaunched to false
+//            appDelegate.sethasAlreadyLaunched()
+//            //display user agreement license
+//            //print("App Running for the first time") // load default items to this tableview
+//            loadDefaultAccounts()
+//        }
         
         restoreBrightness()
     }
@@ -196,13 +196,14 @@ class ViewController: UIViewController {
             
             
         case "goToItemsVC":
-                let destinationVC  = segue.destination as! VC_Item_ListScreen
-        
-                //Get index Path
-                if let indexPath = tableViewMain.indexPathForSelectedRow {
-                    destinationVC.selectedBox = boxes?[indexPath.row]
-                    tableViewMain.deselectRow(at: indexPath, animated: true)
-                }
+            print("Pretend to go to vc item list screen")
+//                let destinationVC  = segue.destination as! VC_Item_ListScreen
+//
+//                //Get index Path
+//                if let indexPath = tableViewMain.indexPathForSelectedRow {
+//                    destinationVC.selectedBox = boxes?[indexPath.row]
+//                    tableViewMain.deselectRow(at: indexPath, animated: true)
+//                }
             
 
             default://_______________________________________
