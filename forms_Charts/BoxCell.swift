@@ -10,7 +10,6 @@ import SwipeCellKit
 
 class BoxCell: SwipeTableViewCell {
 
-
     @IBOutlet weak var boxImageView: UIImageView!
     @IBOutlet weak var boxTitleLabel: UILabel!
     

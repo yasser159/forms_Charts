@@ -95,8 +95,8 @@
                     <connections>
                         <outlet property="searchBar" destination="Xk1-pB-jwX" id="Efz-ZP-XuT"/>
                         <outlet property="tableViewMain" destination="DDp-vv-74O" id="Yrj-JP-FT2"/>
-                        <segue destination="7Et-he-nSN" kind="show" identifier="goToAddBox" id="Rao-5B-tS3"/>
-                        <segue destination="J8C-1D-G0d" kind="show" identifier="goToEditBox" id="Sh3-hk-utk"/>
+                        <segue destination="7Et-he-nSN" kind="showDetail" identifier="goToAddBox" id="Rao-5B-tS3"/>
+                        <segue destination="J8C-1D-G0d" kind="showDetail" identifier="goToEditBox" id="Sh3-hk-utk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -108,7 +108,7 @@
             <objects>
                 <viewController storyboardIdentifier="VC_Add_Box" id="7Et-he-nSN" customClass="VC_Add_Box" customModule="forms_Charts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="45k-MH-Rrg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="MTG-b5-MPd">
@@ -248,7 +248,7 @@
             <objects>
                 <viewController id="J8C-1D-G0d" customClass="VC_Edit_Box" customModule="forms_Charts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d9Y-gn-3sj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="WJ5-xh-qNE">

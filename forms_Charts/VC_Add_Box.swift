@@ -41,6 +41,8 @@ class VC_Add_Box: UIViewController {
     
     NotificationCenter.default.post(name: NSNotification.Name(rawValue: "refresh_BoxListScreen_Tableview"), object: nil)
     self.dismiss(animated: true, completion: nil)
+        
+        print("Add box dismiss")
 }
     
     @IBAction func btn_Cancel(_ sender: Any) {

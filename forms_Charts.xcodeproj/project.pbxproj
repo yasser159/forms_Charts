@@ -58,6 +58,8 @@
 		3333AE92287691F200AC37C8 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				3333AEA2287699CD00AC37C8 /* ImageHandling.swift */,
+				333C4EEE2876791F005296D2 /* AppDelegate.swift */,
 				333C4EF728767921005296D2 /* Assets.xcassets */,
 				333C4EF928767921005296D2 /* LaunchScreen.storyboard */,
 			);
@@ -95,14 +97,12 @@
 			isa = PBXGroup;
 			children = (
 				333C4EF42876791F005296D2 /* Main.storyboard */,
-				333C4EEE2876791F005296D2 /* AppDelegate.swift */,
 				333C4EF02876791F005296D2 /* SceneDelegate.swift */,
 				333C4EF22876791F005296D2 /* VC_Box_ListScreen1.swift */,
 				3333AEAD287790A500AC37C8 /* VC_Box_ListScreen.swift */,
 				3333AE9B287695E300AC37C8 /* VC_Add_Box.swift */,
 				3333AEA62876A08E00AC37C8 /* VC_Edit_Box.swift */,
 				3333AEA92876A2AF00AC37C8 /* BoxCell.swift */,
-				3333AEA2287699CD00AC37C8 /* ImageHandling.swift */,
 				3333AEA12876999100AC37C8 /* Model */,
 				3333AE92287691F200AC37C8 /* Other */,
 				333C4EFC28767921005296D2 /* Info.plist */,

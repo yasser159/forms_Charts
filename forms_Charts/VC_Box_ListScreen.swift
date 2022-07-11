@@ -28,7 +28,8 @@ class VC_Box_ListScreen: UIViewController{
         super.viewDidLoad()
         searchBar.delegate = self
         
-        //print(Realm.Configuration.defaultConfiguration.fileURL!)
+        print(Realm.Configuration.defaultConfiguration.fileURL!)
+        
         loadBoxes()
         tableViewMain.reloadData()
         NotificationCenter.default.addObserver(self, selector: #selector(self.loadBoxes), name: NSNotification.Name(rawValue: "refresh_BoxListScreen_Tableview"), object: nil)
@@ -47,13 +48,12 @@ class VC_Box_ListScreen: UIViewController{
     }
     
     func loadDefaultAccounts(){
-            self.createAccount(myTitle: "Instagram", myImage: #imageLiteral(resourceName: "instagram_bw"))
-            self.createAccount(myTitle: "Linkedin",  myImage: #imageLiteral(resourceName: "linkedin_bw"))
-            self.createAccount(myTitle: "Facebook",  myImage: #imageLiteral(resourceName: "Facebook_bw"))
-            self.createAccount(myTitle: "Gym",       myImage: #imageLiteral(resourceName: "Gym_icon"))
+//            self.createAccount(myTitle: "Instagram", myImage: #imageLiteral(resourceName: "instagram_bw"))
+//            self.createAccount(myTitle: "Linkedin",  myImage: #imageLiteral(resourceName: "linkedin_bw"))
+//            self.createAccount(myTitle: "Facebook",  myImage: #imageLiteral(resourceName: "Facebook_bw"))
+//            self.createAccount(myTitle: "Gym",       myImage: #imageLiteral(resourceName: "Gym_icon"))
 
         self.tableViewMain.reloadData()
-        
     }
     
     func createAccount(myTitle: String, myImage: UIImage){
